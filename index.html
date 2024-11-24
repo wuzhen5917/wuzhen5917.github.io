@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currsor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+<header id="sticky-header">
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-link" data-section="home">首页</a></li>
+            <li><a href="#about" class="nav-link" data-section="about">关于我</a></li>
+            <li><a href="#projects" class="nav-link" data-section="projects">项目</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="content">
+            <h1>Currsor</h1>
+            <p class="motto">しかしどう間違っても、私自身のものです。間に合せに借りた損料着ではありません。</p>
+        </div>
+        <div class="image-carousel">
+            <!-- 图片轮播将通过JavaScript动态添加 -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="color-block dark">
+            <img src="./img/01.jpg" alt="吴臻" class="profile-image">
+            <div class="personal-info">
+                <h2><strong>吴臻</strong></h2>
+                <p>性别：男</p>
+                <p>学历：本科</p>
+                <p>院校：成都东软学院</p>
+                <p>专业：数字媒体技术</p>
+            </div>
+        </div>
+        <div class="color-block light"></div>
+        <div class="section-content">
+            <h2>关于我</h2>
+            <div class="text-carousel">
+                <!-- 文本轮播将通过JavaScript动态添加 -->
+            </div>
+            <div class="skills-block">
+                <div class="skill">
+                    <i data-lucide="box"></i>
+                    <h3><strong>Unreal Engine</strong></h3>
+                    <p>熟悉虚幻引擎Gameplay架构以及Niagara粒子</p>
+                </div>
+                <div class="skill">
+                    <i data-lucide="hexagon"></i>
+                    <h3><strong>Houdini</strong></h3>
+                    <p>使用Houdini搭配UE进行特效创造</p>
+                </div>
+                <div class="skill">
+                    <i data-lucide="aperture"></i>
+                    <h3><strong>Blender</strong></h3>
+                    <p>能使用Blender进行基础的模型制作</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="tab_box">
+                <button class="tab_btn">Test1</button>
+                <button class="tab_btn">Test2</button>
+                <button class="tab_btn">Test3</button>
+                <button class="tab_btn">Test4</button>
+                <div class="line">
+
+                </div>
+            </div>
+            <div class="content_box">
+                <div class="content active">
+                    <h2>Test1</h2>
+                    <p>
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                    </p>
+                </div>
+
+                <div class="content">
+                    <h2>Test2</h2>
+                    <p>
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                    </p>
+                </div>
+
+                <div class="content">
+                    <h2>Test3</h2>
+                    <p>
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                    </p>
+                </div>
+
+                <div class="content">
+                    <h2>Test4</h2>
+                    <p>
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                        TestTestTestTestTestTestTestTestTest
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="loader"></div>
+    </section>
+    
+    <div class="a">
+        <div class="external">
+            <div class="horizontal-scroll-wrapper">
+                <div class="img-wrapper slower">
+                    <a href="https://altphotos.com/photo/stylish-parisian-cafe-terrace-279/" target="_blank" rel="noopener"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-cafe-terrace.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper faster">
+                    <a href="https://altphotos.com/photo/retro-boy-doll-wearing-elegant-clothes-330/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/antiquedollboy.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper slower vertical">
+                    <a href="https://altphotos.com/photo/clocks-shop-exposition-window-reflecting-the-streets-277/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/windowshopclock.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper slower slower-down">
+                    <a href="https://altphotos.com/photo/swans-and-ducks-swimming-in-a-river-264/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/swanduckriver.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper">
+                    <a href="https://altphotos.com/photo/sidewalk-terrace-of-a-blue-facade-cafe-312/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-terrace.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper slower">
+                    <a href="https://altphotos.com/photo/paris-waterfront-at-sunset-1555/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-seine-boat.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper faster1">
+                    <a href="https://altphotos.com/photo/old-man-leaning-over-the-barrier-looking-at-the-river-265/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/old-man-river.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper slower slower2">
+                    <a href="https://altphotos.com/photo/cafe-terrace-with-a-row-of-retro-tables-261/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-table-street.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper">
+                    <a href="https://altphotos.com/photo/street-scene-with-pedestrians-and-dogs-318/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/street-scene-people.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper slower">
+                    <a href="https://altphotos.com/photo/tourist-barge-on-the-river-seine-near-notre-dame-266/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/notre-dame-river-boat.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="img-wrapper slower last">
+                    <a href="https://altphotos.com/photo/skulls-decoration-in-a-shop-window-331/" target="_blank" rel="noopener">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/shop-window-reflection.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</main>
+
+<div class="contact-wrapper">
+    <div class="contact-label">联系方式</div>
+    <div class="contact-icons">
+        <a href="https://github.com/Currsor" class="icon-link"><i data-lucide="github"></i></a>
+        <a href="https://www.linkedin.com/in/%E8%87%BB-%E5%90%B4-37337433a/" class="icon-link"><i data-lucide="linkedin"></i></a>
+        <a href="#" class="icon-link" onclick="copyEmail()"><i data-lucide="mail"></i></a>
+    </div>
+    <script>
+        function copyEmail() {
+            const email = "example@example.com";
+            navigator.clipboard.writeText(email);
+
+            // 创建提示框
+            const emailAlert = document.createElement('div');
+            emailAlert.className = 'email-alert';
+            emailAlert.textContent = '邮箱地址已复制！';
+            document.body.appendChild(emailAlert);
+
+            // 设置提示框出现的位置
+            const existingAlerts = document.querySelectorAll('.email-alert');
+            const offset = 10 + 60 * (existingAlerts.length - 1); // 计算新提示框的偏移量
+            emailAlert.style.bottom = `${offset}px`; // 设置新提示框的底部位置
+
+            // 使用setTimeout来确保CSS过渡效果能够触发
+            setTimeout(() => {
+                emailAlert.style.opacity = '1'; // 提示框变为不透明
+            }, 0);
+
+            // 移动所有旧的提示框
+            existingAlerts.forEach((alert, index) => {
+                alert.style.bottom = `${offset - 60 * (index + 1)}px`; // 移动旧的提示框
+            });
+
+            // 设置提示框消失的定时器
+            setTimeout(() => {
+                emailAlert.style.opacity = '0'; // 提示框开始淡出
+                emailAlert.addEventListener('transitionend', function() {
+                    emailAlert.remove(); // 提示框动画完成后移除
+                });
+            }, 2000);
+        }
+    </script>
+</div>
+
+<div id="back-to-top" class="hidden">
+    <a href="#home" class="nav-link"><i data-lucide="chevron-up"></i></a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
